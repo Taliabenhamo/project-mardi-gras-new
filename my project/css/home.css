@@ -1,0 +1,270 @@
+
+.root {
+  background-position: left;
+  background-image: url(https://diyprojects.com/wp-content/uploads/2016/02/mardi-gras-mask-feature-pb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  border-bottom-right-radius: 50%;
+  padding: 5px;
+}
+
+#title-img {
+  width: 20vw;
+  box-shadow: rgba(0, 0, 0, 0.48) 2px 4px;
+  margin: auto;
+  border-radius: 50%;
+  animation-duration:2s;
+ animation-name: logo;
+
+}
+
+
+
+@keyframes logo {
+from {
+ opacity:20%;;
+ transform: rotate(0deg)
+}
+to {
+ opacity:100%;
+ transform: rotate(360deg)
+
+}
+};
+.time-out{float: right;
+}
+
+#timer{
+
+
+/* background-color: rgba(255, 140, 140, 0.673); */
+font-size:50px;
+margin-left: 20%;
+margin-top: 5%;
+color: antiquewhite;
+font-family: "Pattaya";
+font-family: "Henny Penny";
+
+}
+
+
+.first-section {
+  display: flex;
+  margin: auto;
+}
+
+#main-title {
+  color: rgba(126, 126, 0, 0.635);
+  text-shadow: 2px 1px rgba(93, 1, 81, 0.372);
+  padding: 2% 10%;
+  font-size: 2em;
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  animation-name: title;
+animation-duration: 2s;
+
+}
+
+
+
+@keyframes title {
+from {opacity: 0;
+ 
+ 
+}
+to {opacity: 50%;
+
+}
+}
+
+
+.oclock{ 
+  padding: 3% 5%;
+  text-shadow: 4px 5px rgba(93, 1, 81, 0.372);
+  display: flex;
+  flex-direction: row;
+  box-shadow:3px 6px rgba(0, 135, 85, 0.222);
+  border-bottom-left-radius: 50%; 
+  background-color: rgba(126, 126, 0, 0.727);
+}
+#timer{font-size: 3em;}
+
+.info-mardi {
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background-image: url(https://www.vmcdn.ca/f/files/halifaxtoday/images/entertainment/091319-colour-festival-holi-adobestock_104100401.jpeg;w=1500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  justify-content: flex-end;
+  display: flex;
+  padding: 10%;
+
+
+}
+#mardi-about{
+
+  font-size:2.5em;
+  text-align: center;
+ padding: 2%;
+  color: bisque;
+}
+
+
+
+
+
+#p-1 {
+  font-size:1.5em;
+  text-align: center;
+ padding: 2%;
+  color: bisque;
+
+  /* flex-direction: row; */
+}
+
+.third-section {
+  justify-items: space-between;
+  display: flex;
+  background-color: white;
+}
+
+.wraper {
+  margin: auto;
+  padding: 2%;
+}
+/* 
+/*  carusel */
+
+#img{
+height:450px;
+width: 100%;
+}
+.slider-wrapper {
+  border: 3px solid bla;
+  height: 400px;
+ margin: 0%;
+ padding: 0%;
+  position: relative;
+  overflow: hidden;
+  opacity:90%;
+}
+ 
+.slides-container {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+ 
+.slide {
+
+  flex: 1 0 100%;
+}
+.slide-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 4rem;
+  background-color:yellow;
+  color: purple;
+  border: none;
+  width: 2rem;
+  font-size: 3rem;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 100ms;
+}
+ 
+.slide-arrow:hover,
+.slide-arrow:focus {
+  opacity: 1;
+}
+ 
+#slide-arrow-prev {
+  left: 0;
+  padding-left: 0.25rem;
+  border-radius: 0 2rem 2rem 0;
+}
+ 
+#slide-arrow-next {
+  right: 0;
+  padding-left: 0.75rem;
+  border-radius: 2rem 0 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .slide-arrow{
+    display: none;
+    
+  }
+ 
+}
+
+
+#sponsers-title{
+  text-shadow:2px 1px rgba(93, 1, 81, 0.372);
+  box-sizing: border-box;
+background-color: rgba(202, 255, 194, 0.262);
+padding: 5% 3%;
+  font-size: 2.5em;
+  color: rgba(126, 126, 0, 0.635);
+border-bottom-left-radius: 30%;
+border-top-right-radius: 30%;
+
+}
+.claint-section { 
+   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 100%;
+  text-align: center;
+  background-color: rgba(126, 126, 0, 0.635);
+  box-shadow:8px 3px rgba(244, 45, 251, 0.294);
+  
+
+}
+
+.card-img-top {
+  height: 120px;
+  width: 120px;
+  border-radius:15px;
+  box-sizing: border-box;
+  border: 1px solid black;
+ box-shadow: 2px 4px  rgba(0, 0, 0, 0.468);
+}
+.card-img-top:hover{
+  transform: scale(1.5);
+  transition: all 1s;
+
+
+}
+.card{
+  padding: 2% 2%;
+  flex: 1 0 24%;
+}
+
+.card-title{  padding: 1.5%;
+   border-radius:15px;
+  background-color: rgba(112, 186, 188, 0.362);
+  font-size: 1.5em;
+  font-family: 'Ms Madi', cursive;
+  color: rgb(57, 31, 0);
+}
+
+.btn-primary{
+  box-shadow: 5px 2px solid rgba(0, 0, 0, 0.485);
+  font-size:1em;
+  color: rgb(149, 50, 182);
+
+}
+
+

@@ -1,0 +1,83 @@
+body{
+  background-image: url(../img/mardi_colorful.jpg)
+  ;background-repeat: no-repeat;
+  background-size:cover 
+  ;background-position: center;
+  background-attachment: fixed;
+}
+.title {color: whitesmoke;
+  text-shadow: 3px 2px black;
+  text-align: center;
+  padding: 2%;
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-size:200%;}
+
+.images{ 
+  margin-left: 40px;
+}
+
+.images-coul1{ 
+  display: grid;
+
+  grid-template-columns:30% 40% 30%
+  
+
+ }
+ .images-coul2{ 
+  display: grid;
+  grid-template-columns:33% 33% 33%
+  
+
+ }
+
+.video-container{
+  display: grid;
+  grid-template-columns: 50%;
+  margin-top: 10%;
+  padding: 5% 2%;
+  display: flex;
+  flex-direction: row;
+}
+.youtube-container {
+
+  display: grid;
+  grid-template-columns:25% 25% 25% 25%
+}
+
+
+
+.carnaval {
+
+  width: 85%;
+  height:60%;
+  animation-name: img;
+  animation-duration: 2s;
+  transition-timing-function: 7s;
+}
+
+
+
+.img {
+
+  width: 90%;
+  height:140%;
+  animation-name: img;
+  animation-duration: 2s;
+  transition-timing-function: 7s;
+}
+@keyframes img {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
+}
+
+
+.carnaval:hover {
+  transform: scale(1.1);
+  transition: all 1.3s;
+}
+

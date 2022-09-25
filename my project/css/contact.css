@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://www.choiceprivilegescruises.com/images/web/1/1105/PUB/1105-MardiGrasCasino.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.title {
+  text-shadow: 2px 2px bisque;
+  padding: 2%;
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-size: 3.5rem;
+  color: rgba(57, 50, 50, 0.574);
+  text-align: center;
+  align-items: center;
+}
+
+.wrap {
+  padding: 5% 5%;
+
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.contain-form {
+  margin: auto;
+  padding: 2%;
+
+}
+
+#form {
+  background-color:rgba(255, 228, 196, 0.663);
+height: 350px;
+width: 350px;
+  padding: 10% 5%;
+  text-align: center;
+  align-items: center;
+  border: 3px solid black;
+  box-sizing: border-box;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.374);
+}
+ 
+form label{text-align: center;}
+
+/* FORM */
+
+#msg {
+  padding: 5% 5%;
+  margin-top: 5%;
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 180px;
+}
+
+#btn {
+
+  align-items: center;
+  margin: auto;
+  padding: 2% 2%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  color: plum;
+  background-color: blueviolet;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.452) 3px 5px;
+}
+
+#btn:hover {
+  background-color: lightgreen;
+  color: rgb(0, 173, 0);
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  label {
+    float: none;
+    display: none;
+
+  }
+
+
+}

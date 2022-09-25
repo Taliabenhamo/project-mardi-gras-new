@@ -1,0 +1,101 @@
+body {
+  background-image: url(../img/layota2.editor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.title {
+  text-shadow: 2px 2px #8cbf3f;
+  padding: 2%;
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-size: 3.5rem;
+  color: rgba(57, 50, 50, 0.574);
+  text-align: center;
+  align-items: center;
+}
+
+.container-about {
+  display: grid;
+  grid-template-columns: 40% 40%;
+
+}
+
+
+#quote {
+  margin-top: 12.5%;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.477);
+  color: rgba(255, 255, 255, 0.664);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5%;
+
+}
+#mayor-img-1 {
+  padding: 0 5%;
+  width: 70%;
+  box-shadow: #00000091 9px 3px;
+  border-radius: 100%;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+
+#mayor-img-2 {
+
+  width: 45vw;
+  box-shadow: #00000091 9px 3px;
+  border-radius: 100%;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1.5;
+  }
+}
+
+
+.container-info {
+  width: 100%;
+  background-color: rgba(184, 255, 218, 0.265);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-content: center;
+  padding: 5% 5%;
+
+}
+
+
+.information-mardi {
+
+  font-size: 1.2em;
+  padding: 2% 5%;
+  margin: auto;
+  border-radius: 5px;
+  width: 800px;
+
+}
+
+#mardi-text {
+  padding: 2% 0;
+  color: rgba(255, 255, 255, 0.664);
+}
+
+
+
+.information-layota {
+  background-color: bisque;
+  padding: 2%;
+  margin-left: 10px;
+  box-shadow: 4px 2px #5d1471;
+  border-radius: 5px;
+}

@@ -1,0 +1,180 @@
+/* general CSS page (for all the pages) header and footer */
+* {
+
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgba(227, 191, 148, 0.859);
+}
+
+header { background-color: purple;
+  height: 40px;
+  display: contents;
+  grid-template-columns: 95% 20%;
+
+}
+
+li {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  list-style: none;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7 ease;
+}
+
+.nav-link:hover {
+  color: #9728ff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  /* -webkit-transition: all 0.3s ease-in-out; */
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+
+  }
+
+  .conatin-icons {
+    display: none;
+  }
+
+  .nav-menu {
+    position: absolute;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgb(217, 102, 217);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
+
+#spcial-spon {
+  font-size: 1.5em;
+  color: rgb(255, 0, 255);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.447);
+}
+
+#spcial-spon:hover {
+  color: rgb(60, 255, 99);
+}
+
+
+
+.fa {
+  border-radius: 100%;
+  padding: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-instagram {
+  background: rgba(255, 156, 234, 0.861);
+  color: white;
+}
+
+.fa-twitter {
+  background: rgb(68, 180, 198);
+  color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+  background: rgb(28, 2, 123);
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+}
+
+/* footer */
+.contain-footer {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  color: black;
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  padding: 2% 10%;
+  background-color: purple;
+
+  text-align: center;
+}
+
+
+
+footer a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3% 2%;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.ways {
+  color: #ffffff;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}

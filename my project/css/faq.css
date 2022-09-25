@@ -1,0 +1,68 @@
+body{  
+  background-image: url(https://diyprojects.com/wp-content/uploads/2016/02/mardi-gras-mask-feature-pb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+
+.title {
+  
+    text-shadow: 2px 2px #ffffff;
+    padding: 5%;
+    font-family: "Pattaya";
+    font-family: "Henny Penny";
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+  }
+
+#hide-title {
+  color: darkorchid;
+  animation-name: hide-title;
+  animation-duration: 4s;
+}
+
+@keyframes hide-title {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1.5;
+  }
+}
+
+
+.accordion {
+  text-align: center;
+  padding:  5% 15%;
+}
+.accordion-item {
+  text-align: center;
+
+}
+.accordion-button ,.accordion-body{
+  background-color: rgb(156, 13, 166);
+  color: #caf18b;
+}
+
+.container-quiz {
+  padding: 10% 5%;
+  text-align: center;
+}
+
+#submit {
+ text-decoration: none;
+  align-items: center;
+  margin: auto;
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.452) 3px 5px;
+}
